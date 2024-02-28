@@ -1,0 +1,24 @@
+.frame {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(15,6,163);
+background: linear-gradient(90deg, rgba(15,6,163,1) 0%, rgba(55,55,204,1) 42%, rgba(0,212,255,1) 100%);
+}
+
+.button {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    transition: ease 0.3s;
+}
+
+.button:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
